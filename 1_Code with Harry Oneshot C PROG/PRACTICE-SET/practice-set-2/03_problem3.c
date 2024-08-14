@@ -2,7 +2,7 @@
 int main()
 {
   int ans;
-  printf("Enter>> ");
+  printf("Enter>> "); 
   scanf("%d",&ans);
 
   if (ans%97 == 0)
