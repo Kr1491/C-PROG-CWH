@@ -1,13 +1,13 @@
 #include<stdio.h>
 
-int rec(int n){
+int sum_of_n(int n){
   if (n == 0 || n == 1)
   {
     return 1;
   }
   
   else{
-    return n+rec(n-1);
+    return n+sum_of_n(n-1);
   }
 
 }
@@ -17,6 +17,6 @@ int main()
   printf(">> ");
   scanf("%d",&n);
 
-  printf("Sum %d = %d",n,rec(n));
+  printf("Sum %d = %d",n,sum_of_n(n));
   return 0;
 }
