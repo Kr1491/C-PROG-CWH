@@ -1,7 +1,12 @@
 #include <stdio.h>
 int main()
-{
-  for (int i = 1; i <= 10; i++)
+{ 
+  int ans;
+  printf(">>");
+  scanf("%d",&ans);
+
+
+  for (int i = 1; i <= ans; i++)
   {
     for (int j = 1; j <= i; j++)
     {
