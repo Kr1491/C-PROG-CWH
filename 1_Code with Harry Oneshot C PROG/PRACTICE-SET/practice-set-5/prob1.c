@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+// Write a program using function to find average of three numbers.
 int avg(int a,int b,int c){
   int out = (a + b + c)/3;
   return out;
