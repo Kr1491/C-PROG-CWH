@@ -3,7 +3,7 @@
 int sum(int* a, int* b)
 {
   *b = 8;
-  return *a+*b;
+  return *a + *b;
 }
 
 int main()
