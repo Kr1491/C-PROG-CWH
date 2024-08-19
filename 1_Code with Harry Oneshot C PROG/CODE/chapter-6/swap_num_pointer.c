@@ -5,7 +5,6 @@ void swap(int *a, int *b){
   temp = *a;
   *a = *b;
   *b = temp;
-  printf("Now First Number is: %d and Second Number is: %d",*a,*b);
 }
 
 int main()
@@ -18,5 +17,7 @@ int main()
   scanf("%d",&b);
 
   swap(&a,&b);
+
+  printf("Now First Number is: %d and Second Number is: %d",a,b);
   return 0;
 }
