@@ -1,14 +1,18 @@
 #include <stdio.h>
+int fibonnaci(int n){
+  if (n==1 || n==0){
+    return 1;
+  }
+  else{
+    return fibonnaci(n-1)+fibonnaci(n-2);
+  }
 
+}
 int main()
 {
-  int first = 0, second = 1, i,next;
-
+  int i;
   printf("Enter Num: ");
   scanf("%d",&i);
-
-  void fibonnaci(n);
+  printf("%d",fibonnaci(i));
   return 0;
-
-  
 }

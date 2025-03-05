@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <stdio.h>  #for object file gcc -c new.c
 
 int main()
 {
   int a, re;
   int num = 1;
-  printf("Enter number for which factorial you want>> ");
+  Printf("Enter number for which factorial you want>> ");
   scanf("%d",&a);
   re = a;
 

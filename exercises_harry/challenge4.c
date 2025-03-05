@@ -13,16 +13,15 @@
 //   return 0;
 // }
 
-void giveandtake(int *a) {
-    printf("Enter number: ");
-    scanf("%d", a);
-    printf("The number is: %d\n", *a);
-}
+// void giveandtake(int *a) {
+//     printf("Enter number: ");
+//     scanf("%d", a);
+//     printf("The number is: %d\n", *a);
+// }
 
-int main() {
-    int n;
-    giveandtake(&n);
-    printf("Returned number is: %d\n", n);
-    return 0;
-}
-
+// int main() {
+//     int n;
+//     giveandtake(&n);
+//     printf("Returned number is: %d\n", n);
+//     return 0;
+//

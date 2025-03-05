@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
-  printf("Helloworld\n");
-  return 0;
+  int a=65;
+  printf("%05c",a);
 }

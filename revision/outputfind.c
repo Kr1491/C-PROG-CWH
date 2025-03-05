@@ -3,7 +3,7 @@
 int main()
 {
   int a,count;
-  int b = 0;
+  int b = 90;
   printf("Enter END POINT: ");
   scanf("%d",&count);
   for (a = 0; a<= count; a++, b++)

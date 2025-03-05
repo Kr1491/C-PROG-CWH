@@ -12,7 +12,7 @@ int main()
   printf("Enter Mass: ");
   scanf("%d",&m);
 
-  printf("Force: %dN",force(m));
+  printf("Force: %d N",force(m));
   return 0;
 }
 
